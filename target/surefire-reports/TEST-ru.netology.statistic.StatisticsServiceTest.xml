@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.statistic.StatisticsServiceTest" time="0.144" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.statistic.StatisticsServiceTest" time="0.149" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="/Users/artem/Library/Java/JavaVirtualMachines/corretto-11.0.17/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/artem/Documents/Learn_QA/Java/HW_7.1/target/surefire/surefirebooter5548807900519127365.jar /Users/artem/Documents/Learn_QA/Java/HW_7.1/target/surefire 2022-12-30T08-22-33_716-jvmRun1 surefire12076966817044502095tmp surefire_011033308084940917007tmp"/>
+    <property name="sun.java.command" value="/Users/artem/Documents/Learn_QA/Java/HW_7.1/target/surefire/surefirebooter7039140099255226957.jar /Users/artem/Documents/Learn_QA/Java/HW_7.1/target/surefire 2022-12-30T09-07-36_606-jvmRun1 surefire4720252244898202368tmp surefire_010739577665046150869tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/artem/Documents/Learn_QA/Java/HW_7.1/target/test-classes:/Users/artem/Documents/Learn_QA/Java/HW_7.1/target/classes:/Users/artem/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.0/junit-jupiter-5.9.0.jar:/Users/artem/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/artem/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/artem/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/artem/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/artem/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:/Users/artem/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:/Users/artem/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/artem/Documents/Learn_QA/Java/HW_7.1/target/surefire/surefirebooter5548807900519127365.jar"/>
+    <property name="surefire.real.class.path" value="/Users/artem/Documents/Learn_QA/Java/HW_7.1/target/surefire/surefirebooter7039140099255226957.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.17+8-LTS"/>
@@ -62,5 +62,6 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="findMax" classname="ru.netology.statistic.StatisticsServiceTest" time="0.109"/>
+  <testcase name="findMax" classname="ru.netology.statistic.StatisticsServiceTest" time="0.105"/>
+  <testcase name="findMax2" classname="ru.netology.statistic.StatisticsServiceTest" time="0.001"/>
 </testsuite>
